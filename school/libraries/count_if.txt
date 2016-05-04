@@ -1,0 +1,14 @@
+﻿Итератор на начало (begin), итератор на символ, следующий за последним (last), компаратор.
+Считает количество элементов в диапазоне от begin до last, которые удовлетворяют компаратору.
+Да
+vector<int>a;
+void comp(int b) {
+	return b>10;
+};
+int main () {
+	for (int i=0; i<16; i++) a.push_back(i);
+	cout << count_if(a.begin(), a.end(), comp) << endl; //Выведет 5
+	a[0]=15; a[3]=5;
+	cout << count_if(a.begin(), a.end(), comp) << endl; //Выведет 7
+	return 0;
+};

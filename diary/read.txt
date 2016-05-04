@@ -1,0 +1,29 @@
+echo "<form method=\"POST\" action = \"read.php\">
+Введите дату:<input type = \"text\" name=\"date\">
+<input type = \"submit\" value=\"Открыть\">
+</form>";
+	//error_reporting(0);
+	$date = $_POST["date"];
+	if ($date != "") {
+		echo "<table>";
+		$day = fopen($date, "r");
+		if ($date != "today") {
+			echo "<th colspan = \"2\">Текущая дата:</th><th>".$date."</th>";
+			for ($i = 0; $i <=10; $i++) {
+				$tmtable = fgets($day);
+				$less = explode("‡",$tmtable);
+				echo "<tr><td class = \"one\">".$i."</td><td class = \"two\">".$less[0]."</td><td class = \"three\">".$less[1]."</td></tr>";
+				
+			};
+		} else {
+			echo "<th colspan = \"2\" style=\"text-align: center\">Новейшие домашние задания.</th>";
+			do {
+			$tmtable = fgets($day);
+			if ($tmtable != "†") {
+				$less = explode("‡",$tmtable);
+				echo "<tr><td class = \"two\">".$less[0]."</td><td class = \"three\">".$less[1]."</td></tr>";  };
+			} while ($tmtable != "†");
+		}
+		fclose($day);
+		echo "</table>";
+	};

@@ -1,0 +1,5 @@
+﻿iostream
+Функция/Метод Входные_данные Описание Поддержка_Visual_C++_2005 Пример
+precision
+hex
+showpos

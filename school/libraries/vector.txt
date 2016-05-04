@@ -1,0 +1,21 @@
+﻿vector
+Функция/Метод Входные_данные Описание Поддержка_Visual_C++_2005 Пример
+front
+back
+empty
+max_size
+reserve
+shrink_to_fit
+clear
+insert
+erase
+assign
+begin
+end
+rbegin
+rend
+push_back
+pop_back
+size
+capacity
+resize

@@ -1,0 +1,64 @@
+Меню
+		<hr>
+		<a href="../news/" class="menulink">Новости</a> <br>
+		<a href="../diary/read.php" class="menulink">Дневник</a> <br>
+		<a href="../school/libraries/" class="menulink">Библиотеки C++</a> <br>
+		<a href="physic.html" class="menulink">Физика</a> <br>
+		<a href="../olympiad_ifmo/" class="menulink">Результаты ИТМО</a> <br>
+		<a href="../school/my_vocabulary/" !class="menulink" >Тестовый словарь</a> <br>
+		<li class="spoiler" style="left: 0px"><span class="spoiler" style="left:0px">My book</span>
+			<ul class="spoiler">
+				<li><a href="../book/chapter_1.html" class="menulink" >Глава один</a></li>
+				<li><a href="../book/chapter_2.html" class="menulink" >Глава два</a></li>
+				<li><a href="../book/chapter_3.html" class="menulink" >Глава три</a></li>
+				<li><a href="../book/chapter_4.html" class="menulink" >Глава четыре</a></li>
+				<li><a href="../book/chapter_5.html" class="menulink" >Глава пять</a></li>
+				<li><a href="../book/chapter_6.html" class="menulink" >Глава шесть</a></li>
+			</ul>
+		</li>
+		<li class="spoiler" style="left: 0px"><span class="spoiler" style="left:0px">Игры</span>
+			<ul class="spoiler">
+				<li><a href="/games/barley-break.php" class="menulink" >Пятнашки</a></li>
+				<li><a href="/games/gameOfLife" class="menulink" >Game of Life</a></li>
+			</ul>
+		</li>
+		<a href="../for_maharius/index.php" class="menulink">For Maharius</a><br>
+		<li class="spoiler" style="left: 0px"><span class="spoiler" style="left:0px">Стихи</span>
+		<ul class="spoiler">
+			<li class="spoiler" style="left: 0px"><span class="spoiler" style="left:0px">8 Марта</span>
+			<ul class="spoiler">
+				<li><a href="/verses/adel" class="menulink" >Аделя</a></li>
+			</ul>
+			<ul class="spoiler">
+				<li><a href="/verses/arin" class="menulink" >Арина</a></li>
+			</ul>
+			<ul class="spoiler">
+				<li><a href="/verses/igul" class="menulink" >Айгуль</a></li>
+			</ul>
+			<ul class="spoiler">
+				<li><a href="/verses/dani" class="menulink" >Дания</a></li>
+			</ul>
+			<ul class="spoiler">
+				<li><a href="/verses/dian" class="menulink" >Диана</a></li>
+			</ul>
+			<ul class="spoiler">
+				<li><a href="/verses/dila" class="menulink" >Дилара</a></li>
+			</ul>
+			<ul class="spoiler">
+				<li><a href="/verses/irin" class="menulink" >Ирина</a></li>
+			</ul>
+			<ul class="spoiler">
+				<li><a href="/verses/loli" class="menulink" >Лолита</a></li>
+			</ul>
+			<ul class="spoiler">
+				<li><a href="/verses/luda" class="menulink" >Люда</a></li>
+			</ul>
+			<ul class="spoiler">
+				<li><a href="/verses/nast" class="menulink" >Настя</a></li>
+			</ul>
+			<ul class="spoiler">
+				<li><a href="/verses/nata" class="menulink" >Наташа</a></li>
+			</ul>
+		</li>
+		</ul>
+		</li>

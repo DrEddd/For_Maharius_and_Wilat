@@ -1,0 +1,28 @@
+﻿cmath (math.h)
+Функция/Метод Входные_данные Описание Поддержка_Visual_C++_2005 Пример
+abc
+acos
+asin
+atan
+cil
+cos
+random
+exp
+fabc
+floor
+fmod
+log
+log10
+pow
+sin
+sqrt
+tan
+cbrt
+exp2
+fmax
+fmin
+hypot
+llrint
+lrint
+llround
+log2

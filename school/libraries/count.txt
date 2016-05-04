@@ -1,0 +1,14 @@
+﻿Итератор на начало (begin), итератор на символ, следующий за последним (last), элемент (elem).
+Считает количество элементов в диапазоне от begin до last, равных elem.
+Да
+vector<int>a;
+void comp(int b) {
+	return b>10;
+};
+int main () {
+	for (int i=0; i<16; i++) a.push_back(i);
+	cout << count_if(a.begin(), a.end(), 3) << endl; //Выведет 1
+	a[0]=3; a[4]=3;
+	cout << count_if(a.begin(), a.end(), 3) << endl; //Выведет 3
+	return 0;
+};
